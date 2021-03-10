@@ -57,7 +57,7 @@ public class NumericConversion {
         long result = 0;
         int numMultiply = 0;
 
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < len; i++) {  //Comment for Lab 06 
             char hexChar = (char) hexArray[i];
             int hexValue = hexCharDecode(hexChar);
 
